@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 describe('page', () => {
   it('works', () => {
-    cy.visit('https://example.cypress.io')
+    cy.wrap(new Map().entries().constructor).should('equal', Object)
   })
 })
